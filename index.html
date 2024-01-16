@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Accessibility Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>  
+<header id="header">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"/>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'/>
+  
+     <nav id="nav-bar">
+    <h1> Kevin McIlwain II </h1>
+    <div class="nav-link">
+      <hr class="top"/>
+      <hr class="middle"/>
+      <hr class="bottom"/>
+    </div>
+  </nav>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+    @import url ('https://fonts.googleapis.com/css?family=Raleway');
+  </style>
+</header>
+<main>
+  <section id="welcome_section">
+    <div class="welcome-text">
+    <h1>Welcome to <span style="color: #0598fa">kmii.io</span>!</h1>
+   
+    <p>Follow me as I learn web development, experiment with music, and create some interesting technology!</p> 
+       <div class="welcome-audio">
+         <div class="ticks">
+         <hr class="tick-full"/>
+         <hr class="tick-half"/>
+         <hr class="tick-full full-space"/>
+         <hr class="tick-half"/>
+         </div>
+         <div class="audio-container">
+         <div class="audio-block b1"></div>
+         <div class="audio-block b2"></div>
+         <div class="audio-block b3"></div>
+         <div class="audio-block b4"></div>
+         <div class="audio-block b5"></div>
+         <div class="audio-block b6"></div>
+         <div class="audio-block b7"></div>
+         <div class="audio-block b8"></div>
+         <div class="audio-block b9"></div>
+         <div class="audio-block b10"></div>
+         </div>
+       </div>
+    </div>
+   
+  </section>
+  <div class="wrapper">
+   <img id="bg-img"src="https://live.staticflickr.com/65535/53453006497_142748826b_h.jpg [live.staticflickr.com]"/>
+    <section id="mixer" class="mixer">
+      <div class="mixer_header">
+        <p>Press a pad!</p>
+      </div>
+      <div class="border1"></div>     
+      <div class="label about_label">About</div>
+      <div id="a1" class="active a1"></div>
+      <div  id="bt_about" onmousedown="buttonDown('bt_about')" onmouseup="buttonUp('bt_about')" onClick="buttonPress('about','a1', 'a_border')" class="about_button button">
+        
+      </div>
+      <div class="border2"></div> 
+      <div class=" label projects_label">Projects</div>
+      <div id="a2" class="active a2"></div>       
+        <div id="bt_projects" onmousedown="buttonDown('bt_projects')" onmouseup="buttonUp('bt_projects')"  onClick="buttonPress('projects','a2', 'p_border')" class="projects_button button">   
+      </div>
+      <p class="logo">KMII</p> 
+      <div class="border3"></div>      
+      <div class="label contact_label">Contact</div>
+      <div id="a3" class="active a3"></div>
+      <div id="bt_contact" onmousedown="buttonDown('bt_contact')" onmouseup="buttonUp('bt_contact')" onClick="buttonPress('contact','a3', 'c_border')" class="contact_button button">
+      </div>
+      <div class="border4"></div>      
+      <div class="mixer_fader">
+      <input   type="range" min="1" max="84" value="84" class="fader" id="fader">
+        <p class=" master">Master</p>
+      </div>
+      <div id="curtain"class="curtain"></div>
+      <div class="vh">
+        <hr class="vol_hash"/>
+        <hr class="vol_hash"/> 
+        <hr class="vol_hash"/> 
+        <hr class="vol_hash"/>  
+      </div>
+      <div id="klc" class="knob_label_curtain">
+        <div style="width:100% height:100%"></div>
+      </div>
+      <div class="knob_label">
+        <div id="lv" class="left_vol"></div>
+        <div id="rv" class="right_vol"></div>
+        <p class="smaller ">L R</p>
+      </div>
+      <div class="vhr">
+        <hr class="vol_hashr"/>
+        <hr class="vol_hashr"/> 
+        <hr class="vol_hashr"/> 
+        <hr class="vol_hashr"/>
+      </div>  
+        </section>
+  
+  <section id="about" class="space" >
+    <h1 id="about-header">About Me</h1>
+      <ul>
+      <li>I've gained over eight years of experience as an Audio-Visual Technician, Live Sound Engineer, and Recording Studio Engineer.</li>
+      <li>I hold a Bachelor of Applied Science degree in Music Technology from Mercy University.</li>
+      <li>In May of 2023, I completed an Associate of Applied Science degree from Oakland Community College.</li>
+      <li>In my current position, I've assisted in the development and maintenance of an inventory tracker. Our app is developed in APEX Oracle.</li>
+    </ul>
+    <div id="skills" class="skills">
+      <label for="skill-HTML">HTML</label>
+      <div id="skill-HTML" class="skill"><p>80%</p></div>
+      <label for="skill-Javascript">JS</label>
+    <div id="skill-Javascript" class="skill"><p>50%</p></div>
+      <label for="skill-Java">Java</label>
+    <div id="skill-Java" class="skill"><p>50%</p></div>
+      <label for="skill-SQL">SQL</label>
+    <div id="skill-SQL" class="skill"><p>50%</p></div>
+      <label for="skill-CSS">CSS</label>
+    <div id="skill-CSS" class="skill"><p>75%</p></div>
+    </div>
+    <hr id="a_border" class="about_border"/>
+    </section>
+    <section id="projects" class="space">
+    <h1 id="proj-header">Projects</h1>
+      <div class="flip-card proj1 ">
+        <div class="flip-card-inner proj1">
+          <div class="flip-card-front proj1">
+      <img class="project-img proj1"src="https://live.staticflickr.com/65535/53452203112_080921eab1_h.jpg [live.staticflickr.com]" alt="Freecodecamp drum machine"/>
+          </div>
+          <div class="flip-card-back proj1">
+        <h4>Drum Machine</h4>
+        <p>This project was developed using React JS</p>
+        <button>Learn More</button>
+        </div>
+        </div>
+      </div>
+      <div class="flip-card proj2">
+        <div class="flip-card-inner proj2 ">
+          <div class="flip-card-front proj2">
+      <img class="project-img proj2"src="https://live.staticflickr.com/65535/53453130346_27a344b556_h.jpg [live.staticflickr.com]" alt="Freecodecamp drum machine"/>
+          </div>
+          <div class="flip-card-back proj2">
+        <h4>Responsive Landing Page</h4>
+        <p>This project was developed using React JS</p>
+        <button>Learn More</button>
+        </div>
+        </div>
+      </div>
+      <div class="flip-card proj3 ">
+        <div class="flip-card-inner ">
+          <div class="flip-card-front ">
+      <img class="project-img "src="https://live.staticflickr.com/65535/53452203102_62c712059c_h.jpg [live.staticflickr.com]" alt="Freecodecamp drum machine"/>
+          </div>
+          <div class="flip-card-back ">
+        <h4>Calculator</h4>
+        <p>This project was developed using React JS</p>
+        <button>Learn More</button>
+        </div>
+        </div>
+      </div>
+    <hr id="p_border" class="about_border"/>
+    </section>
+<section id="contact" class="space">
+ 
+  <a id="linkedin" href=""><i class="fa-brands fa-linkedin"></i> LinkedIn</a> 
+  <a id="git" href=""><i class="fa-brands fa-github"></i> GitHub</a>
+  <a href=""></a>
+  <p id="email" style="color:#0598fa; ">kmcilwain112@gmail.com</p>
+  <hr id="c_border" class="about_border"/>
+</section>
+</div>
+</main>
+  </body>
+</html>
