@@ -1182,7 +1182,7 @@ label{
 }
 @media screen and (max-width: 1800px){
   .welcome-text > p {
-    font-size: 30px;
+    font-size: 20px;
   }
   .welcome-audio{
     margin-top: 4%;
