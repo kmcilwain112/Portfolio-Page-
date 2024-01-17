@@ -942,7 +942,7 @@ label{
     font-size: 20px;
   }
   #welcome_section{
-    margin-top: 50%;
+    margin-top: 0%;
   }
   .mixer{
     grid-column: 1/ span 3;
