@@ -1,3 +1,9 @@
+var modal = document.getElementById('navMenu');
+var span = document.getElementsByClassName("close")[0];
+var menuBtn = document.getElementById('modalBtn');
+var top = document.getElementById('top');
+var middle = document.getElementById('middle');
+var bottom = document.getElementById('bottom');
 function buttonPress(sect, active, border) {    
   var p = document.getElementById(sect);
   var active1 = document.getElementById(active);
@@ -28,6 +34,29 @@ function buttonPress(sect, active, border) {
   }
 
 }
+function openModal(){
+  var modal = document.getElementById('navMenu');
+  modal.classList.add('animated_fadeIn');
+  modal.style.opacity = 1;
+  modal.style.display="inline";
+  modalBtn.classList.add('rotateMenuOpenClass');
+  modalBtn.classList.remove('rotateMenuCloseClass');
+  modal.classList.remove('animated_fadeOut');
+}
+
+span.onclick = function() {
+  modal.classList.add('animated_fadeOut');
+  modal.style.opacity = 0;
+  modalBtn.classList.add('rotateMenuCloseClass');
+  modalBtn.classList.remove('rotateMenuOpenClass');
+  modal.classList.remove('animated_fadeIn');
+  modal.style.display="none";
+}
+function menuItem(sect){
+  var sect = document.getElementById(sect);
+  sect.style.visibility = 'visible';
+  sect.scrollIntoView({ behavior: "smooth"});
+}
 function buttonDown(button){
   var bt = document.getElementById(button);
       bt.style.boxShadow = '2px 3px #c77b48';
@@ -37,13 +66,12 @@ function buttonUp(button){
   bt.style.boxShadow = '2px 3px black';
 }
 
-  
-window.onload=function(){ 
-var klc = document.querySelector("#curtain"); 
+  var klc = document.querySelector("#curtain"); 
   var rv = document.querySelector("#rv");
   var fader = document.querySelector("#fader");
+  
 fader.addEventListener('input', function() {
   const value = this.value;
-  klc.style.height = value + "%"; 
+  klc.style.height = value + "%";
+  
 })
-}
