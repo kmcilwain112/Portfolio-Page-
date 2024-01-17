@@ -944,6 +944,7 @@ label{
     margin-left: 5%;
   }
   #nav-bar{
+    display: fixed;
     padding: 0;
     grid-template-columns: 60% 40%;
     height: 5%;
