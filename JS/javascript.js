@@ -40,9 +40,10 @@ function buttonUp(button){
   var klc = document.querySelector("#curtain"); 
   var rv = document.querySelector("#rv");
   var fader = document.querySelector("#fader");
-  
+window.onload=function(){  
 fader.addEventListener('input', function() {
   const value = this.value;
   klc.style.height = value + "%";
   
 })
+}
