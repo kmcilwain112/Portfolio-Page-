@@ -947,9 +947,12 @@ label{
   width: 100%;
 } 
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 430px){
   .modal{
     margin-left: 5%;
+  }
+  #nav-bar{
+    
   }
   #nav-bar > h1{
     font-size: 25px;
