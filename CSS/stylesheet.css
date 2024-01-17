@@ -1158,7 +1158,7 @@ label{
 #nav-bar > h1{
   grid-column: 1;
   font-size: 20px;
-  margin-left: 10%;
+  margin-left: 5%;
 }
   #modalBtn{
   grid-column: 3;
