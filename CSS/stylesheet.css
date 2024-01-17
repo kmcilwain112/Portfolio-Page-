@@ -952,7 +952,7 @@ label{
     margin-left: 5%;
   }
   #nav-bar{
-    
+    width: 100vw;
   }
   #nav-bar > h1{
     font-size: 25px;
