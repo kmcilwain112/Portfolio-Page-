@@ -931,11 +931,7 @@ label{
     background-image: linear-gradient(#1b2836 50%, #141e28);
     text-align: left;
   }
-  main {
-    margin-top: 10%;
-    padding-left: 2%;
-    padding-right: 2%;
-  }
+  
   #welcome_section > h1{
   margin-bottom: 15%;
 }
