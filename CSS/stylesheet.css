@@ -947,29 +947,78 @@ label{
   width: 100%;
 } 
 }
-@media screen and (max-width: 430px){
-  *{
-    overflow: hidden;
+@media only screen and (max-width: 480px){
+  html, body {
+  height: 100%;
+}
+  
+  #top, #middle, #bottom{
+     margin: 5% 0 0 50%; 
+     width: 30%;
+  }
+ 
+  #modalBtn{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    grid-column: 2;
   }
   .modal{
     margin-left: 5%;
   }
   #nav-bar{
-    height: 10%;
-    width: 100vw;
+    padding: 0;
+    grid-template-columns: 60% 40%;
+    height: 5%;
+    width: 100%;
   }
   #nav-bar > h1{
-    font-size: 25px;
-    margin-left: 0px;
-  }
-  .welcome-section{
-    width: 100%;
-}
-  .welcome-text > h1 {
     font-size: 30px;
+    margin-left: 2%;
+  }
+  #welcome_section{
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+}
+  .welcome-text{
+    margin-top: 60%;
+    position:relative;
+  }
+  .welcome-text > h1 {
+    font-size: 45px;
+    margin-bottom: 65%;
 }
   .welcome-text > p{
-    font-size: 10px;
+    font-size: 25px;
+    margin-bottom: 23%;
+    color: white;
+    font-weight: bold;
+}
+  .welcome-audio{
+    height: 15vh;
+    border-top: 10px solid grey;
+    border-left: 10px solid black;
+    border-bottom: 5px solid grey;
+    border-right: 10px solid black;
+  }
+  .top-tick{
+    margin-top: 5%;
+  }
+  .tick-full{
+    border-bottom: 3px solid grey;
+    width: 100%;
+    margin-top: 100%;
+
+}
+.tick-half{
+  border-bottom: 3px solid grey;
+  width: 50%;
+  margin-top: 100%; 
+}
+.full-space{
+  margin-top: 100%;
 }
   .skills{
     margin-left: auto;
