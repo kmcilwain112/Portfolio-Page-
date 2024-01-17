@@ -953,6 +953,7 @@ label{
   }
   #nav-bar > h1{
     font-size: 40px;
+    margin-left: 0;
   }
   .welcome-section{
     width: 100%;
