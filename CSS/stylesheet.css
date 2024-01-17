@@ -1119,7 +1119,7 @@ label{
 
   
 }
-@media screen and (max-width: 430px){
+@media screen only and (max-width: 430px){
   #welcome_section{
     margin-top: 0;
     width: 100%;
@@ -1136,9 +1136,6 @@ label{
     border-left: 10px solid black;
     border-bottom: 5px solid grey;
     border-right: 10px solid black;
-  }
-  html{
-    overflow: hidden;
   }
   
   main{
