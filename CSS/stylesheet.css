@@ -924,8 +924,11 @@ label{
   border: 1px solid black;
 }
 @media screen and (max-width: 768px) {
-  html{
+  
+  body{
     overflow: hidden;
+    margin:0;
+    padding: 0;
   }
   .nav-bar{
     position: fixed;
