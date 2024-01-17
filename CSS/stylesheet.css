@@ -1119,7 +1119,7 @@ label{
 
   
 }
-@media (max-width: 480px){
+@media screen and (max-width: 430px){
   #welcome_section{
     margin-top: 0;
     width: 100%;
