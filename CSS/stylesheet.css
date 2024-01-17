@@ -948,11 +948,14 @@ label{
 } 
 }
 @media screen and (max-width: 480px){
- .welcome-text > h1 {
+  .welcome-section{
+    width: 100%;
+}
+  .welcome-text > h1 {
     font-size: 30px;
 }
-.welcome-text > p{
-  font-size: 10px;
+  .welcome-text > p{
+    font-size: 10px;
 }
   .skills{
     margin-left: auto;
