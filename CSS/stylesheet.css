@@ -938,6 +938,9 @@ label{
  #welcome_section > h3, #welcome_section > p{
   margin-bottom: 5%;
 }
+  #welcome_section > p{
+    font-size: 20px;
+  }
   #welcome_section{
     margin-top: 50%;
   }
