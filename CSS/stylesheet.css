@@ -1078,12 +1078,10 @@ i:hover{
 }
 #welcome_section{
   height: 100vh;
-  overflow: hidden;
+  width: 100%;
   z-index: 1; 
   background-image: url("https://img.freepik.com/premium-photo/abstract-blue-sound-wave-black-background_106885-3594.jpg?w=996");
   border: 0px 0px  5px 0px solid;
-  box-shadow: 5px 5px 10px  grey;
- 
 }
 
 .welcome-text{
