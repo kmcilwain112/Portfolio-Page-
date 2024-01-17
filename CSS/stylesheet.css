@@ -1131,7 +1131,7 @@ label{
   }
   .welcome-audio{
     
-    height: 10vh;
+    height: 15vh;
     border-top: 10px solid grey;
     border-left: 10px solid black;
     border-bottom: 5px solid grey;
@@ -1142,18 +1142,7 @@ label{
     margin: 0;
     padding: 0;
   }
-  #nav-bar{
-  position: fixed;
-  display: grid;
-  grid-template-column: 20% 60% 20%;
-  height: 65px;
-  width: 100%;
-  background: black;
-  text-align: left;
-  padding-top: 20px;
-  top: 0;
- z-index: 6; 
-}
+  
 
 #nav-bar > h1{
   grid-column: 1;
@@ -1162,7 +1151,7 @@ label{
 }
   #modalBtn{
   grid-column: 3;
-  width: 20%;
+  width: 10%;
   height: 100%;
   margin-left: 50%;
 }
