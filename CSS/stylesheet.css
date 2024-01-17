@@ -924,8 +924,6 @@ label{
   border: 1px solid black;
 }
 @media screen and (max-width: 768px) {
-  
- 
 #nav-bar{
   position: fixed;
   display: grid;
@@ -947,10 +945,16 @@ label{
   margin-right: auto;
   height: 100px;
   width: 100%;
+} 
 }
-
-
-
-
-  
+@media screen and (max-width: 480px){
+ .welcome-text > h1 {
+    font-size: 30px;
+}
+  .skills{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100%;
+} 
 }
