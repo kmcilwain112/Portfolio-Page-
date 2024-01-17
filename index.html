@@ -6,22 +6,43 @@
     <meta name="description" content="Kevin McIlwain II Portfolio Page" />
     <title>Kevin McIlwain II</title>
     <link rel="stylesheet" href="CSS/stylesheet.css" />
-    
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel='stylesheet'/>
   </head>
   <body>  
 <header id="header">
   <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"/>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'/>
-  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
      <nav id="nav-bar">
     <h1> Kevin McIlwain II </h1>
-    <div class="nav-link">
-      <hr class="top"/>
-      <hr class="middle"/>
-      <hr class="bottom"/>
+    <div id="modalBtn" onClick="openModal()" class="nav-link">
+      <hr id="top" class="top"/>
+      <hr id="middle" class="middle"/>
+      <hr id="bottom" class="bottom"/>
     </div>
   </nav>
+  <div id="navMenu" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <p class="menu-header">KMII</p>
+    <span class="close">
+      <i class="fa fa-window-close" aria-hidden="true"></i>
+    </span>
+    
+    <div id="aboutMenu" class="menu-border">
+      
+    <p onClick="menuItem('about')" class="menulinks"><i class="fa fa-info-circle icon"></i> About</p>
+    </div>
+    <div id="projectsMenu" class="menu-border">
+      
+    <p onClick="menuItem('projects')" class="menulinks"><i class="fa-solid fa-folder icon"></i>  Projects</p>
+    </div>
+    <div id="contactMenu" class="menu-border">
+      
+    <p onClick="menuItem('contact')" class="menulinks"><i class="fa fa-address-book icon" aria-hidden="true"></i>    Contact</p>
+    </div>
+  </div>
   <style>
     @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
     @import url ('https://fonts.googleapis.com/css?family=Raleway');
