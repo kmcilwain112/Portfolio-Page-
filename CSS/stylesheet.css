@@ -1137,6 +1137,9 @@ label{
     border-bottom: 5px solid grey;
     border-right: 10px solid black;
   }
+  html{
+    overflow: hidden;
+  }
   
   main{
     margin: 0;
