@@ -1180,20 +1180,3 @@ label{
     
   }
 }
-@media screen and (max-width: 1800px){
-  .welcome-text > p {
-    font-size: 20px;
-  }
-  .welcome-audio{
-    margin-top: 4%;
-  }
-  hr.vol_hash{
-  margin-bottom: 20%; 
-}
-hr.vol_hashr{
-  margin-bottom: 20%; 
-}
-  .skills{
-    width: 100%;
-  }
-}
