@@ -938,6 +938,9 @@ label{
   top: 0;
  z-index: 6; 
 }
+.welcome-text > h1 {
+  font-size: 30px;
+}
 
 .skills{
   margin-left: auto;
