@@ -46,7 +46,7 @@ a:visited{
   display: grid;
   grid-template-column: 20% 60% 20%;
   height: 65px;
-  width: 100%;
+  width: 50%;
   background: black;
   text-align: left;
   padding-top: 20px;
