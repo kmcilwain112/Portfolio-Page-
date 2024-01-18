@@ -948,7 +948,7 @@ label{
     padding: 0;
     grid-template-columns: 60% 40%;
     height: 65px;
-    
+    width: 50%;
   }
   #nav-bar > h1{
     font-size: 30px;
