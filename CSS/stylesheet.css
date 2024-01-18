@@ -964,7 +964,7 @@ label{
 }
   .welcome-text{
     margin-top: 30%;
-    position:relative;
+    
   }
   .welcome-text > h1 {
     font-size: 45px;
@@ -977,7 +977,7 @@ label{
     font-weight: bold;
 }
   .welcome-audio{
-    position: absolute;
+  
     height: 120px;
     border-top: 10px solid grey;
     border-left: 10px solid black;
