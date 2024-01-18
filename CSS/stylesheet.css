@@ -963,7 +963,7 @@ label{
     background-size: cover;
 }
   .welcome-text{
-    margin-top: 60%;
+    margin-top: 50%;
     position:relative;
   }
   .welcome-text > h1 {
