@@ -926,7 +926,7 @@ label{
 
 @media only screen and (max-width: 480px){
   html, body {
-  height: 100vh;
+  height: 100%;
   
 }
   
