@@ -975,7 +975,8 @@ label{
     font-size: 45px; 
 }
   .welcome-text > p{
-    font-size: 25px; 
+    top: 25%;
+    font-size: 15px; 
     color: white;
     font-weight: bold;
 }
