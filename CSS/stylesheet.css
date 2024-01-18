@@ -46,7 +46,7 @@ a:visited{
   display: grid;
   grid-template-column: 20% 60% 20%;
   height: 65px;
-  width: 50%;
+  width: 100%;
   background: black;
   text-align: left;
   padding-top: 20px;
@@ -948,7 +948,7 @@ label{
     padding: 0;
     grid-template-columns: 60% 40%;
     height: 65px;
-    width: 100%;
+    
   }
   #nav-bar > h1{
     font-size: 30px;
