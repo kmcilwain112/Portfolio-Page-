@@ -946,14 +946,14 @@ label{
     margin:0;
     width: 40%;
     height:30%;
-    top: 3%;
+    top: 5%;
   }
   #nav-bar{
     display: fixed;
     padding: 0;
     background-color: rgba(0,0,0,0.8);
     grid-template-columns: 60% 40%;
-    height: 60px;
+    height: 5%;
     width: 100vw;
   }
   #nav-bar > h1{
