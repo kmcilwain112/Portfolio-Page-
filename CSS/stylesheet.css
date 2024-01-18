@@ -947,6 +947,7 @@ label{
   #nav-bar{
     display: fixed;
     padding: 0;
+    background-color: rgba(0,0,0,0.8);
     grid-template-columns: 60% 40%;
     height: 60px;
     width: 100vw;
