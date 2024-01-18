@@ -954,7 +954,7 @@ label{
   }
   #nav-bar > h1{
     font-size: 30px;
-    margin: 4% 0px 0px 2%;
+    margin: 4% 0 0 2%;
   }
   #welcome_section{
     min-height: 100vh;
@@ -968,7 +968,7 @@ label{
   }
   .welcome-text > h1 {
     font-size: 45px;
-    margin-bottom: 65%;
+    margin-bottom: 75%;
 }
   .welcome-text > p{
     font-size: 25px;
