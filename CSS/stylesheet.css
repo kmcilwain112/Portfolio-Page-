@@ -978,7 +978,7 @@ label{
 }
   .welcome-audio{
     position: absolute;
-    height: 100px;
+    height: 120px;
     border-top: 10px solid grey;
     border-left: 10px solid black;
     border-bottom: 5px solid grey;
