@@ -927,7 +927,7 @@ label{
 @media only screen and (max-width: 480px){
   html, body {
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
   
   #top, #middle, #bottom{
