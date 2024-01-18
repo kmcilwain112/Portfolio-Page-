@@ -988,6 +988,7 @@ label{
 }
   .welcome-audio{
     position: relative;
+    top: 80%;
     margin: 0;
     height: 120px;
     border-top: 10px solid grey;
