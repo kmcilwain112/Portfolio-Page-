@@ -942,9 +942,9 @@ label{
     grid-column: 2;
   }
   .modal{
-    left: 20%;
+    left: 25%;
     margin:0;
-    width: 40%;
+    width: 45%;
     height:30%;
     top: 5%;
   }
