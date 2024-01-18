@@ -942,7 +942,7 @@ label{
     grid-column: 2;
   }
   .modal{
-    left: 25%;
+    left: 10%;
   }
   #nav-bar{
     display: fixed;
