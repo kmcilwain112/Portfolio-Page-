@@ -977,7 +977,7 @@ label{
     font-weight: bold;
 }
   .welcome-audio{
-    height: 10vh;
+    height: 60px;
     border-top: 10px solid grey;
     border-left: 10px solid black;
     border-bottom: 5px solid grey;
