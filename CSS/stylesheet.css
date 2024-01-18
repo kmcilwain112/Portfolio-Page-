@@ -946,6 +946,7 @@ label{
     margin:0;
     width: 40%;
     height:30%;
+    top: 10%;
   }
   #nav-bar{
     display: fixed;
