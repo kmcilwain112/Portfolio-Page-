@@ -944,6 +944,8 @@ label{
   .modal{
     left: 20%;
     margin:0;
+    width: 40%;
+    height:30%;
   }
   #nav-bar{
     display: fixed;
