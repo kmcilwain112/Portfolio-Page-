@@ -974,16 +974,19 @@ label{
     height: 80%; 
   }
   .welcome-text > h1 {
+    position: relative;
     font-size: 45px;
     margin: 0;
 }
   .welcome-text > p{
+    position: relative;
     margin: 0;
     font-size: 15px; 
     color: white;
     font-weight: bold;
 }
   .welcome-audio{
+    position: relative;
     margin: 0;
     height: 120px;
     border-top: 10px solid grey;
