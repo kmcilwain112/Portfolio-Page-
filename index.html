@@ -12,13 +12,14 @@
 <header id="header">
   <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"/>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel='stylesheet'/>
+   <!-- Navbar -->
      <nav id="nav-bar">
     <h1> Kevin McIlwain II </h1>
     <div id="modalBtn" onClick="openModal()" class="nav-link">
-      <hr id="top" class="top"/>
-      <hr id="middle" class="middle"/>
-      <hr id="bottom" class="bottom"/>
+      <hr id="top" class="menu-hr"/>
+      <hr id="middle" class="menu-hr"/>
+      <hr id="bottom" class="menu-hr"/>
     </div>
   </nav>
   <div id="navMenu" class="modal">
@@ -49,15 +50,18 @@
   </style>
 </header>
 <main>
+  <!--==============
+      Welcome Section
+==================-->
   <section id="welcome_section">
     <div class="welcome-text">
     <h1>Welcome to <span style="color: #0598fa">kmii.io</span>!</h1>
    
-    <p>Follow me as I learn web development! </br></br> Experiment with music! <br/></br> Create some interesting technology!</p> 
+      <p>Follow me as I learn web development, experiment with music, and create some interesting technology!</p> 
        <div class="welcome-audio">
          <div class="ticks">
-         <hr class="tick-full"/>
-         <hr class="tick-half"/>
+         <hr class="tick-full top-tick"/>
+         <hr class="tick-half mid-tick"/>
          <hr class="tick-full full-space"/>
          <hr class="tick-half"/>
          </div>
@@ -74,35 +78,40 @@
          <div class="audio-block b10"></div>
          </div>
        </div>
-    </div>
-   
+    </div>   
   </section>
+  <!--=============
+      Main Content
+=================-->
   <div class="wrapper">
-   <img id="bg-img"src="https://live.staticflickr.com/65535/53453006497_142748826b_h.jpg [live.staticflickr.com]"/>
-    <section id="mixer" class="mixer">
-      <div class="mixer_header">
-        <p>Press a pad!</p>
+   
+    <!-- =============
+      Drum Machine 
+========================-->
+    <section id="drummachine" class="drummachine">
+      <div class="drummachine_header">
+        <p class="drummachine_headtxt">Press a pad!</p>
       </div>
-      <div class="border1"></div>     
+      <div class="border1 drummachine_borders"></div>     
       <div class="label about_label">About</div>
       <div id="a1" class="active a1"></div>
       <div  id="bt_about" onmousedown="buttonDown('bt_about')" onmouseup="buttonUp('bt_about')" onClick="buttonPress('about','a1', 'a_border')" class="about_button button">
         
       </div>
-      <div class="border2"></div> 
+      <div class="border2 drummachine_borders"></div> 
       <div class=" label projects_label">Projects</div>
       <div id="a2" class="active a2"></div>       
         <div id="bt_projects" onmousedown="buttonDown('bt_projects')" onmouseup="buttonUp('bt_projects')"  onClick="buttonPress('projects','a2', 'p_border')" class="projects_button button">   
       </div>
       <p class="logo">KMII</p> 
-      <div class="border3"></div>      
+      <div class="border3 drummachine_borders"></div>      
       <div class="label contact_label">Contact</div>
       <div id="a3" class="active a3"></div>
       <div id="bt_contact" onmousedown="buttonDown('bt_contact')" onmouseup="buttonUp('bt_contact')" onClick="buttonPress('contact','a3', 'c_border')" class="contact_button button">
       </div>
-      <div class="border4"></div>      
-      <div class="mixer_fader">
-      <input   type="range" min="1" max="84" value="84" class="fader" id="fader">
+      <div class="border4 drummachine_borders"></div>      
+      <div class="drummachine_fader">
+      <input type="range" min="0" max="84" value="84" class="fader" id="fader">
         <p class=" master">Master</p>
       </div>
       <div id="curtain"class="curtain"></div>
@@ -127,7 +136,10 @@
         <hr class="vol_hashr"/>
       </div>  
         </section>
-  
+   <!--================
+      About Section
+=======================
+-->
   <section id="about" class="space" >
     <h1 id="about-header">About Me</h1>
       <ul>
@@ -148,8 +160,11 @@
       <label for="skill-CSS">CSS</label>
     <div id="skill-CSS" class="skill"><p>75%</p></div>
     </div>
-    <hr id="a_border" class="about_border"/>
     </section>
+     <!--===============
+        Project Section
+========================
+-->
     <section id="projects" class="space">
     <h1 id="proj-header">Projects</h1>
       <div class="flip-card proj1 ">
@@ -160,7 +175,8 @@
           <div class="flip-card-back proj1">
         <h4>Drum Machine</h4>
         <p>This project was developed using React JS</p>
-        <button>Learn More</button>
+            <a href="https://codepen.io/kevin-mcilwain-the-decoder/full/yLZKNwM" target="_blank"><button>Learn More</button></a>
+       
         </div>
         </div>
       </div>
@@ -172,7 +188,7 @@
           <div class="flip-card-back proj2">
         <h4>Responsive Landing Page</h4>
         <p>This project was developed using React JS</p>
-        <button>Learn More</button>
+       <a href="https://codepen.io/kevin-mcilwain-the-decoder/full/wvOMjNj" target="_blank"><button>Learn More</button></a>
         </div>
         </div>
       </div>
@@ -184,17 +200,21 @@
           <div class="flip-card-back ">
         <h4>Calculator</h4>
         <p>This project was developed using React JS</p>
-        <button>Learn More</button>
+            <a href="https://codepen.io/kevin-mcilwain-the-decoder/full/abXGpEj" target="_blank"><button>Learn More</button></a>
+        
         </div>
         </div>
       </div>
     <hr id="p_border" class="about_border"/>
     </section>
-<section id="contact" class="space">
- 
-  <a id="linkedin" href=""><i class="fa-brands fa-linkedin"></i> LinkedIn</a> 
-  <a id="git" href=""><i class="fa-brands fa-github"></i> GitHub</a>
-  <a href=""></a>
+
+    <!--================
+        Contact Section
+========================
+-->
+    <section id="contact" class="space">
+  <a id="linkedin" href="https://www.linkedin.com/in/kevin-mcilwain-31885011/" target="_blank" class="contact-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> 
+  <a id="git" href="https://github.com/kmcilwain112" target="_blank" class="contact-link"><i class="fa-brands fa-github"></i> GitHub</a>
   <p id="email" style="color:#0598fa; ">kmcilwain112@gmail.com</p>
   <hr id="c_border" class="about_border"/>
 </section>
